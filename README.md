@@ -54,7 +54,7 @@ Orchestrators and agents must not apply `docs/` rules to a host repository. Thos
 Project-evolution docs (this repository only — see table above):
 
 1. [Commit patterns](docs/commit-patterns.md)
-2. [Branch management](docs/branch-management.md) — pending in follow-up PR
+2. [Branch management](docs/branch-management.md)
 3. [Setup](docs/setup.md) — pending in follow-up PR
 
 ## Status
