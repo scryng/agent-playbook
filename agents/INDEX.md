@@ -7,7 +7,7 @@ Fixed roster for this playbook. Do not add or remove agents without updating thi
 | 1 | database-architect | [database-architect-agent.md](database-architect-agent.md) | `database-design-database-architect` | Chooses data stores and designs schema, indexing, and scaling strategy |
 | 2 | backend-architect | [backend-architect-agent.md](backend-architect-agent.md) | `backend-development-backend-architect` | Designs service boundaries, API contracts, auth strategy, and inter-service communication |
 | 3 | ui-designer | [ui-designer-agent.md](ui-designer-agent.md) | `product-design-ui-designer` | Designs visual system, component states, and interaction/motion specs |
-| 4 | frontend-developer | [frontend-developer-agent.md](frontend-developer-agent.md) | `multi-platform-apps-frontend-developer` | Implements client UI against the API contract and design specs |
+| 4 | frontend-developer | [frontend-developer-agent.md](frontend-developer-agent.md) | `multi-platform-apps-frontend-developer` | Implements client UI on the host stack against the API contract and design specs |
 | 5 | security-auditor | [security-auditor-agent.md](security-auditor-agent.md) | `security-scanning-security-auditor` | Threat models early, audits auth/data/client security, runs a final pre-release pass |
 | 6 | performance-engineer | [performance-engineer-agent.md](performance-engineer-agent.md) | `application-performance-performance-engineer` | Measures and optimizes the built system; reconciles perf budgets with security controls |
 

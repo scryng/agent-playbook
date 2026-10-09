@@ -69,7 +69,7 @@ Project-evolution docs (this repository only — see table above):
 
 ## Status
 
-Playbook core (orchestrator, registry, six specialist specs) is defined. Project-evolution conventions live under `docs/`. Host-facing convention packs (optional) can follow later.
+Playbook core (orchestrator, registry, six deep specialist specs) is defined. Specs stay stack-fluent but host-preferring for multi-repo workspaces. Project-evolution conventions live under `docs/`. Optional host-facing convention packs can follow later.
 
 ## License
 
