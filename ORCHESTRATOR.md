@@ -50,7 +50,8 @@ Every message to a specialist should include:
 - **Context the agent has no other way to get** — user requirement, constraints (scale, existing stack, deadline). Prefer host project docs over inventing stack choices.
 - **Upstream artifacts** — paste prior outputs or give exact file paths. Never assume the specialist can infer another agent's decisions.
 - **Expected output** — what the orchestrator needs next (e.g. schema, OpenAPI sketch, prose recommendation, patch).
-- **Host conventions** — if the task commits or opens a PR in the host repo, point at the *host* project's commit/branch/PR rules — not at this playbook's [`docs/`](docs/).
+- **Host conventions** — if the task commits or opens a PR in the host repo, point at the *host* project's commit/branch/PR rules, labels, and templates — not at this playbook's [`docs/`](docs/).
+- **Evidence** — when the host expects proof of a UI or API change, require the abstract evidence roles in [TOOLING.md](TOOLING.md). Do not prescribe a browser product, MCP server, or AI vendor; use whatever the current environment provides.
 
 ## Consistency checks before closing a phase
 

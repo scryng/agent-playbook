@@ -46,9 +46,11 @@ Consumed when this repository is coupled into a host project:
 
 | Path | Role |
 | ---- | ---- |
+| [AGENTS.md](AGENTS.md) | Entry point for any coding agent / IDE |
 | [ORCHESTRATOR.md](ORCHESTRATOR.md) | Planning, delegation, integration (tool-agnostic) |
 | [agents/INDEX.md](agents/INDEX.md) | Closed roster, dependency graph, phases |
 | [agents/](agents/) | Specialist specs (one file per role) |
+| [TOOLING.md](TOOLING.md) | Optional roles for evidence and environment (no vendor lock-in) |
 
 ## Project documentation vs playbook core
 
@@ -69,7 +71,7 @@ Project-evolution docs (this repository only — see table above):
 
 ## Status
 
-Playbook core (orchestrator, registry, six deep specialist specs) is defined. Specs stay stack-fluent but host-preferring for multi-repo workspaces. Project-evolution conventions live under `docs/`. Optional host-facing convention packs can follow later.
+Playbook core is defined: entry point, orchestrator, six specialist specs, and optional tooling *roles* (evidence, isolation) without naming a required AI, IDE, or OS. Project-evolution conventions live under `docs/`. Host workspaces keep their own MCP/runtime/CI adapters.
 
 ## License
 
