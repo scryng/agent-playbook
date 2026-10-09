@@ -55,11 +55,11 @@ Project-evolution docs (this repository only — see table above):
 
 1. [Commit patterns](docs/commit-patterns.md)
 2. [Branch management](docs/branch-management.md)
-3. [Setup](docs/setup.md) — pending in follow-up PR
+3. [Setup](docs/setup.md)
 
 ## Status
 
-Initial scaffold. Core orchestration and agent specs come next; project conventions land via documentation PRs.
+Project-evolution conventions live under `docs/`. Core orchestration and agent specs come next (outside `docs/`).
 
 ## License
 
