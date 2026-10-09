@@ -69,7 +69,7 @@ Project-evolution docs (this repository only — see table above):
 
 ## Status
 
-Playbook core: orchestrator + agent registry are in progress via PRs. Specialist agent body files land next. Project-evolution conventions live under `docs/`.
+Playbook core (orchestrator, registry, six specialist specs) is defined. Project-evolution conventions live under `docs/`. Host-facing convention packs (optional) can follow later.
 
 ## License
 
