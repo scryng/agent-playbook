@@ -40,11 +40,21 @@ Typical phases (scoped down per request):
 4. **Implementation** — client against contract + design
 5. **Hardening** — security audit and performance pass
 
+## Playbook core
+
+Consumed when this repository is coupled into a host project:
+
+| Path | Role |
+| ---- | ---- |
+| [ORCHESTRATOR.md](ORCHESTRATOR.md) | Planning, delegation, integration (tool-agnostic) |
+| [agents/INDEX.md](agents/INDEX.md) | Closed roster, dependency graph, phases |
+| [agents/](agents/) | Specialist specs (one file per role) |
+
 ## Project documentation vs playbook core
 
 | Path | Role | When this playbook is coupled into a host project |
 | ---- | ---- | ------------------------------------------------ |
-| Playbook core (orchestrator, agent specs, shared conventions for *host* work) | Consumed by orchestration | **Use** |
+| Playbook core (above) | Consumed by orchestration | **Use** |
 | [`docs/`](docs/) | Meta docs for **evolving this repository** (commits, branches, setup) | **Ignore** — host project conventions win |
 
 Orchestrators and agents must not apply `docs/` rules to a host repository. Those files exist only to govern how *agent-playbook* itself is developed and reviewed.
@@ -59,7 +69,7 @@ Project-evolution docs (this repository only — see table above):
 
 ## Status
 
-Project-evolution conventions live under `docs/`. Core orchestration and agent specs come next (outside `docs/`).
+Playbook core: orchestrator + agent registry are in progress via PRs. Specialist agent body files land next. Project-evolution conventions live under `docs/`.
 
 ## License
 
